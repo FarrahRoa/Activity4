@@ -1,6 +1,11 @@
 {
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\sangu\\OneDrive\\Desktop\\mysql-connector-j-8.3.0\\mysql-connector-j-8.3.0.jar"
-    ]
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "d:\\Downloads\\College\\2nd Year\\SECOND SEM\\ITCC 11.1\\mysql-connector-j-8.3.0\\mysql-connector-j-8.3.0.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\sangu\\OneDrive\\Desktop\\mysql-connector-j-8.3.0\\mysql-connector-j-8.3.0.jar"
+        ]
+    }
 }
